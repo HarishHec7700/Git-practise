@@ -1,0 +1,223 @@
+.header{
+    width: 1400px;
+    height: 250px;
+    background-color: maroon;
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    
+}
+.header-content{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.fa-phone{
+    padding-right: 10px;
+    color: white;
+}
+.fa-envelope{
+    padding-right: 10px;
+    color: white;
+}
+.fa-location-dot{
+    padding-right: 10px;
+    color: white;
+}
+.header-details{
+    margin: 100px 0px 30px 0px ;
+    color: white;
+    text-align: left;
+}
+.header-details a{
+    text-decoration: none;
+    color: #fff;
+}
+.header-details li{
+    list-style: none;
+    line-height: 25px; 
+}
+.header-details li a:hover{
+    color: blue;
+    transition: 1s;
+}
+.header-name{
+    margin-top: 100px;
+    text-align: right;
+    color: white;
+}
+.header-name h1{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: x-large;  
+    line-height: 20px;
+}
+
+.detail{
+    width: 1400px;
+    height: auto;
+}
+.detail-content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* LEFT CONTENT */
+.detail-left{
+    width: 30%;
+    height: auto;
+
+}
+/* OBEJECTIVE */
+.detail-objective{
+    margin-top: 15px;
+    line-height: 20px;
+}
+.detail-objective h2{
+    color: brown;
+    font-size: 20px;
+    
+}
+.detail-objective hr{
+    border-top: 2px solid brown;
+
+}
+.detail-objective p{
+    line-height: 25px;
+    font-family: Verdana;
+}
+/* KEYSKILLS */
+.detail-key-skills{
+    text-align: center;
+    padding: 10px;
+    
+}
+.key-skills{
+    padding-top: 50px;
+}
+.key-skills h2{
+    color: brown;
+    font-size: 20px;
+}
+.key-skills hr{
+    border-top: 2px solid brown;
+}
+.skills{
+    padding: 5px;
+    background-color: brown;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+    height: 20px;   
+}
+/* TECHANICAL SKILLS */
+.detail-techanical-skills{
+    padding-top: 40px;
+}
+.detail-techanical-skills h2{
+    color: brown;
+    font-size: 20px;
+}
+.detail-techanical-skills hr{
+    border-top: 2px solid brown;
+}
+.detail-techanical-skills p{
+    line-height: 25px;
+    font-family: Verdana;
+}
+/* RIGHT SIDE CONTENT */
+.detail-right{
+    width: 70%;
+    height: auto;
+    padding-left: 50px;
+
+}
+/* TRAINING & CERTIFICATION */
+.detail-training{
+    margin-top: 20px;
+    line-height: 20px;
+}
+.detail-training h2{
+    color: brown;
+    font-size: 20px;
+}
+.detail-training hr{
+    border-top: 2px solid brown;
+}
+.detail-training ul{
+    line-height: 50px;
+    font-family: Verdana;
+}
+/* PROJECTS */
+.detail-project{
+    margin-top: 20px;
+    line-height: 20px;
+}
+.detail-project h2{
+    color: brown;
+    font-size: 20px;
+}
+.detail-project hr{
+    border-top: 2px solid brown;
+}
+.detail-project ul{
+    line-height: 50px;
+    font-family: Verdana;
+    padding-right: 10px;
+}
+/* EXTRA CURRICULAR ACTIVITIES */
+.detail-extra{
+    margin-top: 15px;
+    line-height: 20px;
+}
+.detail-extra h2{
+    color: brown;
+    font-size: 20px;
+}
+.detail-extra hr{
+    border-top: 2px solid brown;
+}
+.detail-extra ul{
+    line-height: 50px;
+    font-family: Verdana;
+    /* list-style: none; */
+}
+
+/* EDUCATION */
+.detail-education{
+    margin-top: 20px;
+    line-height: 20px;
+}
+.detail-education h2{
+    color: brown;
+    font-size: 20px;
+}
+.detail-education hr{
+    border-top: 2px solid brown;
+}
+.detail-education h3{
+    color: brown;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.edu-flex{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: Verdana;
+    line-height: 20px;
+}
+.degree{
+    width: 400px;
+}
+.year{
+    width: 400px;
+    text-align: right;
+}
+li{
+    margin-left: 15px;
+}
